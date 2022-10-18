@@ -3,7 +3,7 @@ nav {
 }
 
 .profile,
-button {
+.form-button {
     background-color: #1abc9c;
 }
 
@@ -17,11 +17,17 @@ section {
     width: 7vw;
 }
 
+.avatar-container {
+    max-width: 200px;
+    margin: auto;
+}
+
 .decoration-container>* {
     padding: .3rem;
 }
 
-button {
+.my-btn,
+.my-btn:hover {
     border: 1px solid white;
 }
 
@@ -34,6 +40,27 @@ footer {
     background-color: #2c3e50;
 }
 
-.container {
-    max-width: 920px;
+nav .nav li .nav-link {
+    color: white;
+}
+
+
+.my-type-form {
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.form-control.my-type-form.text-area {
+    min-height: 150px;
+}
+
+.social {
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.social>a {
+    display: flex;
 }

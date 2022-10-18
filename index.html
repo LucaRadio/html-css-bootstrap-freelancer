@@ -16,7 +16,19 @@
                 <div class="left-nav text-white py-3">
                     START BOOTSTRAP
                 </div>
-                <div class="right-nav text-white py-1 border border-1 border-white rounded p-1 align-self-center d-flex">
+                <ul class="nav align-content-center d-none d-md-flex">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                  </ul>
+
+                <div class="right-nav text-white py-1 border border-1 border-white rounded p-1 align-self-center d-flex d-md-none">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
                     </svg>
@@ -28,7 +40,7 @@
         <section class="profile">
             <div class="container text-center">
                 <div class="avatar-container">
-                    Immagine
+                    <img src="img/avatar.svg" class="img-fluid" alt="Avatar">
                 </div>
                 <h1 class="text-white">START BOOTSTRAP</h1>
                 <div class="decoration-container text-white d-flex align-items-center justify-content-center">
@@ -67,22 +79,34 @@
                 </div>
                 <div class="row overflow-hidden">
                     <div class="col-12 g-3 col-md-6 col-lg-4">
-                        <div class="img-container bg-danger">Colonna 1</div>
+                        <div class="img-container">
+                            <img src="img/cabin.png" alt="Home" class="img-fluid rounded">
+                        </div>
                     </div>
                     <div class="col-12 g-3 col-md-6 col-lg-4">
-                        <div class="img-container bg-danger">Colonna 2</div>
+                        <div class="img-container">
+                            <img src="img/cake.png" alt="Cake" class="img-fluid rounded">
+                        </div>
                     </div>
                     <div class="col-12 g-3 col-md-6 col-lg-4">
-                        <div class="img-container bg-danger">Colonna 3</div>
+                        <div class="img-container">
+                            <img src="img/circus.png" alt="Circus" class="img-fluid rounded">
+                        </div>
                     </div>
                     <div class="col-12 g-3 col-md-6 col-lg-4">
-                        <div class="img-container bg-danger">Colonna 4</div>
+                        <div class="img-container">
+                            <img src="img/game.png" alt="Game" class="img-fluid rounded">
+                        </div>
                     </div>
                     <div class="col-12 g-3 col-md-6 col-lg-4">
-                        <div class="img-container bg-danger">Colonna 5</div>
+                        <div class="img-container">
+                            <img src="img/safe.png" alt="Safe" class="img-fluid rounded">
+                        </div>
                     </div>
                     <div class="col-12 g-3 col-md-6 col-lg-4">
-                        <div class="img-container bg-danger">Colonna 6</div>
+                        <div class="img-container">
+                            <img src="img/submarine.png" alt="Subamrine" class="img-fluid rounded">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -103,15 +127,24 @@
                         <div class="line rounded"></div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-10 col-md-6 col-lg-4 g-3 offset-2 text-white">
-                        <div class="bg-black">Colonna 1</div> 
+                <div class="row justify-content-center text-start">
+                    <div class="col-10 col-md-5 g-3 text-white">
+                        <div>Freelancer is a free bootstrap theme created by Start
+                            Bootstrap. The download includes the complete
+                            source files including HTML, CSS, and JavaScript as
+                            well as optional LESS stylesheets for easy
+                            customization.</div> 
                     </div>
-                    <div class="col-10 col-md-6 col-lg-4 g-3 text-white">
-                        <div class="bg-black">Colonna 2</div>
+                    <div class="col-10 col-md-5 g-3 text-white">
+                        <div>Whether you're a student looking to showcase your
+                            work, a professional looking to attract clients, or a
+                            graphic artist looking to share your projects, this
+                            template is the perfect starting point!</div>
                     </div>
                 </div>
-                <button class="d-block m-auto mt-3 text-white">
+            </div>
+            <div class="m-auto text-center">
+                <button class="btn mt-3 text-white my-btn">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
                         <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
                         <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
@@ -136,20 +169,31 @@
                         <div class="line rounded bg-dark"></div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-10 text-start m-auto border-bottom p-1">Name</div>
-                    <div class="col-10 text-start m-auto border-bottom p-1">Email Address</div>
-                    <div class="col-10 text-start m-auto border-bottom p-1">Phone Number</div>
-                    <div class="col-10 text-start border-bottom m-auto p-1">Message
-                        <br>
-                        <br>
-                        <br>
-                        <br>
+                <form>
+                    <div class="row justify-content-center">
+                        <div class="col-10">
+                            <div class="form-floating mb-1">
+                                <input type="text" class="form-control my-type-form" placeholder="Neme">
+                                <label for="floatingInput">Name</label>
+                            </div>
+                            <div class="form-floating mb-1">
+                                <input type="email" class="form-control my-type-form" placeholder="Email Address">
+                                <label for="floatingPassword">Email address</label>
+                            </div>
+                            <div class="form-floating mb-1">
+                                <input type="text" class="form-control my-type-form" placeholder="Phone Number">
+                                <label for="floatingPassword">Phone Number</label>
+                            </div>
+                            <div class="form-floating">
+                                <textarea type="text" class="form-control my-type-form text-area" placeholder="Message here"></textarea>
+                                <label for="floatingPassword">Message Here</label>
+                            </div>
+                            <div class="text-start mt-1">
+                                <button class="btn btn-success form-button">Send</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-3">
-                        <button class="px-2 py-1 text-white rounded mt-1">send</button>
-                    </div>
-                </div>
+                </form>
             </div>
         </section>
     </main>
@@ -157,19 +201,63 @@
             <div class="container text-center">
                 <div class="row">
                     <div class="col-10 col-md-4 mx-auto my-3 ">
-                        <div class="bg-danger">Colonna 1</div>
+                        <div class="text-white">
+                            <div>LOCATION</div> 
+                            <div>2215 John Daniel Drive MO</div> 
+                            <div>54243</div> 
+                        </div>
+
                     </div>
                     <div class="col-8 col-md-4 mx-auto my-3 ">
-                        <div class="bg-danger">Colonna 2</div>
+                        <div class="text-white">
+                            <div class="mb-1">AROUND THE WEB</div>
+                            <div class="d-flex justify-content-center">
+                                <div class="social d-flex justify-content-center align-content-center p-2 mx-1">
+                                    <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-facebook" viewBox="0 0 16 16">
+                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                    </svg>
+                                </a>    
+                                </div>
+                                <div class="social d-flex justify-content-center align-content-center p-2 mx-1">
+                                    <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-google" viewBox="0 0 16 16">
+                                        <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+                                    </svg>
+                                </a>
+                                </div>
+                                <div class="social d-flex justify-content-center align-content-center p-2 mx-1">
+                                    <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-twitter" viewBox="0 0 16 16">
+                                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                                    </svg>
+                                </a>    
+                                </div>
+                                <div class="social d-flex justify-content-center align-content-center p-2 mx-1">
+                                    <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                                    </svg>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                     <div class="col-12 col-md-4 mx-auto my-3 ">
-                        <div class="bg-danger">Colonna 3</div>
+                        <div class="text-white">
+                            <div>ABOUT FREELANCER</div>
+                            <div>Freelance is a free to use, open source
+                                Bootstrap theme created by <a href="#" class="bootstrap"> Start
+                                    Bootstrap.</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </footer>
         <div class="copyright p-3">
-            <div class="container text-center">
+            <div class="container text-center text-white">
                 Copyright © Your website 2019
             </div>
         </div>
